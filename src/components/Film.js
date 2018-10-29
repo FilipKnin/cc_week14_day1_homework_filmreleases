@@ -6,7 +6,7 @@ class Film extends Component {
     return (
       <div>
 
-      <li> </li>
+      <li><a href={this.props.url}>{this.props.title}</a></li>
 
       </div>
     )
