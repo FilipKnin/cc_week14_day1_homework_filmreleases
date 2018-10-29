@@ -8,7 +8,9 @@ class FilmList extends Component {
 
     return(
       <div className="film-list">
-      Hello I am FilmList!
+        <ul>
+          <Film />
+        </ul>
       </div>
     )
   }
