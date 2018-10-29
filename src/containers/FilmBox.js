@@ -36,6 +36,8 @@ class FilmBox extends Component {
           url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
         }
       ]
+
+  
     }
 
   }
@@ -44,7 +46,7 @@ class FilmBox extends Component {
     return (
       <div className="film-box">
       <h2>Upcoming Film Realeases for UK</h2>
-      < FilmList data={this.state.data} /> 
+      < FilmList data={this.state.data} />
       </div>
     );
   }

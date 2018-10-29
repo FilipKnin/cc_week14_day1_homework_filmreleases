@@ -8,16 +8,17 @@ class FilmList extends Component {
 
     let filmPosition = this.props.data.map(film => {
       return <Film
-              key={film.id}
-              title={film.name}
-              url={film.url}/>
+      key={film.id}
+      title={film.name}
+      url={film.url}/>
     })
 
     return(
       <div className="film-list">
-        <ul>
-          {filmPosition}
-          </ul>
+      <ul>
+      {filmPosition}
+      </ul>
+      <a href="https://www.imdb.com/calendar/?region=gb"><button>View more upcoming releases >> </button></a>
       </div>
     )
   }
